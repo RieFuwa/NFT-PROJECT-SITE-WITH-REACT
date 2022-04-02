@@ -1,0 +1,30 @@
+.home{
+    min-height: 200vmax;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-color: black;
+    border-style: inset;
+    box-shadow: 0 5px 5px rgb(255, 255, 255);
+    
+}
+.rarity{
+    min-height: 100vmax;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-color: black;
+    border-style: inset;
+    box-shadow: 0 5px 5px rgb(255, 255, 255);
+}
+.error{
+    min-height: 40vmax;
+}
+.errorA{
+   
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    font-family:'Dela Gothic One', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: white;   
+}

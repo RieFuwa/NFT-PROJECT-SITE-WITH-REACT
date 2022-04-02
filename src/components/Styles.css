@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Permanent+Marker&family=Press+Start+2P&display=swap');
+.container-fluid{
+    margin: 0%;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px;
+    
+    color: #f587ec;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+    overflow: hidden;
+ 
+   
+}
+a:hover{
+    background: #f587ec;
+    color: #050801;
+    box-shadow: 0 0 5px #f587ec,
+                0 0 25px #f587ec,
+                0 0 50px #f587ec,
+                0 0 200px #f587ec;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+a:nth-child(2){
+    filter: hue-rotate(110deg);
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#f587ec);
+    animation: animate1 0.8s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#f587ec);
+    animation: animate2 0.8s linear infinite;
+    animation-delay: 0.2s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#f587ec);
+    animation: animate3 0.8s linear infinite;
+    animation-delay: 0.4s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+a span:nth-child(4){
+    
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#f587ec);
+    animation: animate4 0.8s linear infinite;
+    animation-delay: 0.6s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+
+
+.mb-3{
+    color:rgb(232, 137, 245);
+}
+
+.yazi{
+    min-height: 100vmin;
+}
+
+.faqbutton{
+    font-family:'Dela Gothic One', cursive;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1%;
+    color:rgb(55, 198, 255);
+}
+.faq{
+    
+    min-height: 100vmin; 
+    justify-content: center;
+    align-items: center;    
+    
+}
+.faqss{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: transparent;
+    margin-bottom: 10%;
+}
+.faqs{
+    color: white;
+    margin-bottom: 2%;
+}
+.abouts{
+    background-color: transparent;
+    text-align: center;
+    color:white;
+    min-height: 100vmin;
+}
+.roadmapA{
+    min-height: 100vmin;
+}
+.typicalA{
+    margin-top: 10%;
+}
+.mb-2{
+    font-family:'Dela Gothic One', cursive;
+    
+}
+.h4fot a{
+   
+    padding: 0px 0px 0px 0px;
+}
+.cardgr{
+    margin-top: 10%;
+}
+.ulfot{
+    list-style:square;
+}
+.h4fot{
+    box-shadow: 0 2px 2px rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    border-style: inset;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    font-size: 16px;
+}
+
+.teamA{
+    font-family:'Dela Gothic One', cursive;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    color: rgb(255, 255, 255);
+    margin: 1%;
+    display: inline-block;
+    min-height: 100vmin;
+
+}
+.teams{
+    font-family:fantasy;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    color: rgb(255, 255, 255);
+    margin: 1%;
+    display: inline-block;
+}
+.road{
+    font-family:'Dela Gothic One', cursive;
+    margin-top: 0%;
+   
+    text-align: center;
+    align-items: center;
+    color: white; 
+    font-size: 50px;
+    
+}
+
+.navbar-brand{
+    width: 0%;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.navbar-nav{   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:0%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{   
+    margin-right: 0%;  
+}
+.nav-item{
+    padding: 0%;
+    margin: 3%;
+    font-size: 14px;    
+    
+}
+
+.nav-itema{
+    margin: 2%;
+    text-align: center;
+    
+    color: rgb(255, 251, 0);
+    box-direction: none;
+    list-style: none;
+    align-items: center;
+    display: inline-block; 
+ 
+}
+.cardbutton{
+    margin: 1%;
+    padding: 1%;
+    
+}
+.navbar-nava{
+    margin-left:10%;
+}
+.navbar-collapse > ul li {
+    position: relative;
+}
+.navbar-collapse ul a:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    transform:scaleX(0);
+    transition: transform 0.40s ease-out;
+    transform-origin: center bottom;
+    
+}
+.h4fot{
+    font-size: 15px;
+    animation: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-collapse ul a:hover:after{
+    transform: scale(1);   
+}
+
+.navbar-collapse > ul li:not(:first-child){
+    margin-left: 0%;
+}
+.card-body{
+    background-color: rgb(250, 254, 255);
+    
+}
+.yazib{
+    font-family: 'Dela Gothic One', cursive;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+.yazi{
+    font-family: 'Dela Gothic One', cursive;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 10%;
+}
+.py-2{
+    font-size: 50px;
+}
+.blue{
+    color: rgb(55, 198, 255);
+    
+}
+.h1{
+    font-size: 30px;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+   
+}
+
+.smallcard{
+    margin-top: 2%;
+    padding: 0.5%;
+}
+
+.Minicard{
+    
+    margin-top: 1%;
+    padding: 1%;
+}
+.Minicard2{
+    
+    padding: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.accordion-button{
+    color: white;
+}
+.card-img{
+    height: 250px;
+}
+.c1{
+    
+    margin-left: 37%;
+    font-size: 70px;
+    color:rgb(0, 0, 0);
+}
+
+.share{
+    text-align: center;
+}
+.sharea{
+    
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+}
+
+
+.cardminia:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+     transform: scale(1.15);
+}
+.cardmini:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+     transform: scale(1.12); 
+}
+.card-text{
+    font-size: 14px;
+    text-align: center;
+    
+}
+.card-title{
+    font-size: 18px;
+    text-align: center;
+}
+.alink{
+    text-decoration: none;
+    color:black;
+}
+.mb-2{ 
+   margin: 1%;
+    color: rgb(55, 198, 255);
+}
