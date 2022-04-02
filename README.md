@@ -1,3 +1,7 @@
+Demo
+====
+Here is a simple demo to show animations and actions with standart theme. [Go to demo](https://bedirhankabatas.netlify.app/home)
+
 ## What the app looks like
 
 
