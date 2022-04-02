@@ -1,8 +1,5 @@
 # NFT-PROJECT-SITE-WITH-REACT
-This project was bootstrapped with [Cre
-
-
-ate React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
