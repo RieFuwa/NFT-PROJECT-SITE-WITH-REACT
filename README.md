@@ -1,7 +1,6 @@
 # NFT-PROJECT-SITE-WITH-REACT
 This project was bootstrapped with [Cre
 
-https://user-images.githubusercontent.com/71210936/161379419-773f0b90-b5a0-4ce9-8672-db16917d2739.mp4
 
 ate React App](https://github.com/facebook/create-react-app).
 
