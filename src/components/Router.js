@@ -8,7 +8,7 @@ function Router() {
   return <div>
     <BrowserRouter>
       <Routes>     
-        <Route path="/:code" element={<Home></Home>}></Route>
+        <Route path="/" element={<Home></Home>}></Route>
               <Route path="rarity" element={<Rarity></Rarity>}></Route>
         <Route path="/Control" element={<Control></Control>}></Route>
         <Route path="*" element={<Error></Error>}></Route>
