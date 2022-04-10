@@ -1,26 +1,25 @@
 import React from 'react';
 import { SiHiveBlockchain, SiStrapi, SiFsecure } from 'react-icons/si';
+import { FaShoppingCart, FaHandHoldingUsd, FaParachuteBox, FaLock } from 'react-icons/fa';
 import { VscServerProcess } from 'react-icons/vsc';
 import AboutCard from './AboutCard';
+import marketplaceicon from '../assets/marketplace.png'
+
 function Brand() {
   return (
     <div id="about" className='abouts'>
-      <h1 className='road'>ABOUT</h1>
+      <h1 className='road'>To Be Participate</h1>
       <br></br>  
       <div className=' px-4 py-0'>
         <div>
           <p className='py-4 text-xl'>
-            The Defi protocol system empowers developers, liquidity providers,
-            and traders to participate in a financial marketplace that is open
-            and accessible to all.
+          How to get involved in the SmiliNFT ecosystem and everything that awaits you once you get involved.
           </p>
           <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4'>
-            <AboutCard icon={<SiHiveBlockchain size={40} />} heading='Reliable, tamper-proof network' text='Use decentralization, trusted nodes, premium data, and
-          cryptographic proofs to connect highly accurate and available
-          data/APIs to any smart contract.' />
-            <AboutCard icon={<SiFsecure size={40} />} heading='Seamless connection to any API' text='Build on a flexible framework that can retrieve data from any API, connect with existing systems, and integrate with any current or future blockchain.' />
-            <AboutCard icon={<SiStrapi size={40} />} heading='Proven, ready-made solutions' text='Integrate pre-built, time-tested oracle solutions that already secure tens of billions in smart contract value for market-leading decentralized applications.' />
-            <AboutCard icon={<VscServerProcess size={40} />} heading='Secure off-chain computation' text='Use a decentralized network of DeFi Keeper nodes to automate contracts, mitigating risk of manual interventions and centralized servers.' />
+            <AboutCard icon={<FaShoppingCart size={40} />}  heading='How To Have' text='If you missed the mint day, you can buy a Smile directly from the popular secondary markets. If you can find people willing to sell :)' />
+            <AboutCard icon={<FaHandHoldingUsd size={40} />} heading='Holder Benefits' text='The SmiliNFT ecosystem is a pro-user ecosystem and spends all of its earnings on self-improvement. Income and promotions from all deals made are distributed to holders.' />
+            <AboutCard icon={<FaParachuteBox size={40} />} heading='Airdrops' text='Every wallet that contains any item from the SmiliNFT collection earns $TEETH per week in direct proportion to the number of Smiles it holds. In addition, we should not ignore the many $SOL prizes we will distribute to the holders.' />
+            <AboutCard icon={<FaLock size={40} />} heading='Staking' text='The stake application   locks your Smile NFT for a while. During the staking period, it is not impossible for you to sell the NFT and the NFT remains yours during this period. Each holder who contributes to the Staking application is rewarded with extra airdrops.' />
           </div>
         </div>
         <a style={({ fontSize: '18px', fontFamily: 'Dela Gothic One', marginTop:'5%'})} href="#">
@@ -34,5 +33,4 @@ function Brand() {
     </div>
   )
 }
-
 export default React.memo(Brand);

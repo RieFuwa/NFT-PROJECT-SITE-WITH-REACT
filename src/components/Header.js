@@ -12,7 +12,7 @@ function Header() {
                     <Nav className=" navbar-collapse">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <Nav.Link class="nav-link " style={{ color: "white" }} href="/#about">ABOUT</Nav.Link>
+                                <Nav.Link class="nav-link " style={{ color: "white" }} href="/#about">PARTICIPATE</Nav.Link>
                             </li>
                             <li class="nav-item">
                                 <Nav.Link class="nav-link " style={{ color: "white" }} href="/#roadmap">ROADMAP</Nav.Link>
@@ -23,9 +23,9 @@ function Header() {
                             <li class="nav-item">
                                 <Nav.Link class="nav-link " style={{ color: "white" }} href="/#faq">FAQ</Nav.Link>
                             </li>
-                            <li class="nav-item">
+                            {/* <li class="nav-item">
                                 <Nav.Link class="nav-link " style={{ color: "white" }} href="/rarity">Rarity</Nav.Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </Nav>
                 </Navbar.Collapse>
