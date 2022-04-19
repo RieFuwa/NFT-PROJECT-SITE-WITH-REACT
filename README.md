@@ -1,8 +1,8 @@
 Demo & Latest Version
 ====
 Here is a simple demo to show animations and actions with standart theme. 
-[Go to demo](https://bedirhankabatas.netlify.app)
 
+[Go to demo](https://bedirhankabatas.netlify.app) -
 [latest version](http://smilinft.xyz/)
 ## What the app looks like
 
