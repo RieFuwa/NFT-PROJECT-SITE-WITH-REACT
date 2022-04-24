@@ -3,7 +3,7 @@ Demo & Latest Version
 Here is a simple demo to show animations and actions with standart theme. 
 
 [Go to demo](https://bedirhankabatas.netlify.app) -
-[Latest version](http://smilinft.xyz/)
+[Latest version](https://6263668a3dfcf046d9b51a7f--smilinft.netlify.app/)
 ## What the app looks like
 
 
