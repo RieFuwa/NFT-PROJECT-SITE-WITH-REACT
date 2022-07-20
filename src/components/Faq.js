@@ -7,32 +7,32 @@ import { Button } from 'react-bootstrap'
 function Faq() {
   const data = [
     {
-      "title": "Item 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a consequat nibh. Mauris suscipit arcu at fermentum convallis. Pellentesque consectetur mi in felis maximus posuere."
+      "title": "What is SmiliNFT?",
+      "description": "SmiliNFT is an ecosystem that includes an NFT collection and P2E game in Solana Blockchain."
     },
     {
-      "title": "Item 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie tellus a maximus tempus. Duis vel leo iaculis, porttitor erat et, posuere erat. Ut blandit."
+      "title": "What do we do here?",
+      "description": "We create a community where people can come together and spend time. People in this community will be able to benefit from the deals our project will make and generate passive income from the NFTs it has."
     },
     {
-      "title": "Item 3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia, nibh imperdiet tempus pharetra, arcu risus aliquet arcu, a auctor ex lacus efficitur purus. Morbi."
+      "title": "What will we do?",
+      "description": "We will step into the world of Meta with the development of our community. We will adapt our holders to this community and make the 3D Smiles we create interesting in the Meta world."
     },
     {
-      "title": "Item 4",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat lobortis nibh, eu molestie est placerat non. Donec ornare nisl erat, non imperdiet elit porta."
+      "title": "What is supply & mint date?",
+      "description": "The first collection includes 777 Smile NFT. The mint date is in May."
     },
     {
-      "title": "Item 5",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat lobortis nibh, eu molestie est placerat non. Donec ornare nisl erat, non imperdiet elit porta."
+      "title": "What is $TEETH?",
+      "description": "$TEETH is the core cryptocurrency of the SmiliNFT ecosystem. It is distributed to holders on a weekly basis."
     },
     {
-      "title": "Item 6",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat lobortis nibh, eu molestie est placerat non. Donec ornare nisl erat, non imperdiet elit porta."
+      "title": "What is SmiliN Game?",
+      "description": "SmiliN Game is a play-to-earn game. People will use $TEETH to play. The main purpose is to make people earn $SOL."
     },
     {
-      "title": "Item 7",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat lobortis nibh, eu molestie est placerat non. Donec ornare nisl erat, non imperdiet elit porta."
+      "title": "How will we use funds?",
+      "description": "Airdrops, game development, and advertisement."
     }
   ];
   return <div id="faq" className='faq'>
